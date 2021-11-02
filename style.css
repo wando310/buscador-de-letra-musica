@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conteiner{
+    width: 80rem;
+    background-color: rgb(126, 126, 126);
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.conteiner h2{
+    font-size: 2rem;
+}
+.translate{
+    display: flex;
+}
+.translate hr{
+    box-shadow: 0px 3px 10px rgb(255, 255, 255);
+}
+.translate p{
+    max-width: 20rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.pt, .en{
+  /*  background-color: rgb(151, 151, 151); */
+    background-image: linear-gradient(90deg, rgb(98, 143, 137),rgb(69, 70, 69));
+    margin: 1rem;
+    width: 37rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    color: rgb(233, 233, 233);
+}
+.pt h2, .en h2{
+    color: tomato;
+}
+.capa{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 12px 25px rgb(0, 0, 0);
+    background-color: chocolate;
+}
+.capa img{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+}
+input{
+    padding: .5rem;
+    font-size: 1rem;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: .3rem;
+    border: none;
+    color: rgb(105, 27, 121);
+    font-weight: 900;
+}
+label{
+    background-color: rgb(255, 255, 255);
+    padding: .2rem 1rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+label:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+label img{
+    width: 1.2rem;
+}
+.buscar{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: .4rem;
+}
+.hr{
+    width: inherit;
+    box-shadow: 0px 5px 6px #000;
+}
+h2{
+    color: rgb(26, 100, 96);
+}
